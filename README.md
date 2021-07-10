@@ -4,17 +4,19 @@ mkdir fpy
 cd fpy
 clone the directory from git
 
+if you do not have docker in you system, please follow <br>
+https://docs.docker.com/engine/install/
 
 sudo docker run --name flask-fampay -p 5000:5000 flask-fampay
 
-In case this doesn't work:
-  sudo docker ps -a
-  sudo docker rm -f <process id>
+In case this doesn't work:<br>
+  sudo docker ps -a<br>
+  sudo docker rm -f <process id><br>
   
-If there's no process, try creating the Docker image again:
-  sudo docker build --tag flask-fampay .
+If there's no process, try creating the Docker image again:<br>
+  sudo docker build --tag flask-fampay .<br>
   
-And then run
+And then run:<br>
   sudo docker run --name flask-fampay -p 5000:5000 flask-fampay
 
 
