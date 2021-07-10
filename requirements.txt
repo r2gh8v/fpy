@@ -1,0 +1,5 @@
+######### pip freeze causing some issues in the project 
+
+flask
+apscheduler==2.1.2
+requests
