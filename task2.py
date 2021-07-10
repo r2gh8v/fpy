@@ -4,7 +4,6 @@
 from flask import Flask, request as flask_request
 
 import logging, os
-from utils import task
 # logging.getLogger().setLevel(logging.INFO)
 
 # import schema.sql
